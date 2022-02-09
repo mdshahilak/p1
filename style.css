@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+}
+nav{
+ 
+    font-family: 'Fredoka One', cursive;
+  
+}
+.navbar-brand{
+    color: #686D76;
+    padding-left: 3%;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link{
+    color: #686D76;
+}
+.nav-link:hover{
+    color: lavender;
+}
+     /* HOME */
+.home{
+    text-align: center;
+    padding-top: 5%;
+}
+.home1{
+    width: 90%;
+    padding: 0px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.box{
+    width: 250px;
+    margin: 0 10px;
+}
+.intex-image{
+    display: block;
+    width: 100%;
+    border-radius: 350px;
+
+}
+
+.box:hover{
+    transform: scale(1.1,1.1);
+    z-index: 2;
+}
+.heading1{
+    color:aqua;
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.heading2{
+    color: white;
+    padding-top: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+   /* about */
+.about{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 7%;
+}
+.about1{
+    margin-right: 84%;
+    padding-bottom: 10px;
+    font-family: 'Chewy', cursive;
+    color: white;
+}
+.about1:hover{
+    transform: scale(1.1,1.1);
+    color: aqua;
+}
+.para{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+abbr[title] {
+    cursor: default !important;
+    text-decoration: none !important; 
+  }
+.column1{
+    padding-right: 16%;
+}
+.li:hover{
+    transform: scale(1.1,1.1);
+    z-index: 2;
+}
+/* place */
+.place{
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+}
+.heading4{
+    margin-right: 84%;
+    padding-bottom: 4%;
+    font-family: 'Chewy', cursive;
+    color: white;
+}
+.heading4:hover{
+    transform: scale(1.1,1.1);
+    color: aqua;
+}
+.slider1{
+    padding-left: 28%;
+}
+.carousel{
+    max-width: 60%;
+    
+}
+.d-block{
+    border-radius: 30%;
+}
+.place-detail{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Bebas Neue', cursive;
+    color: #8BDB81;
+}
+.mylocation{
+    height: 10%;
+    width: 17%;
+    border-radius: 30%;
+}
+
+/* education */
+.education{
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.education-h1{
+    padding-bottom: 3%;
+}
+.heading5{
+    margin-right: 84%;
+    padding-bottom: 10px;
+    
+    font-family: 'Chewy', cursive;
+    color: white;
+}
+.heading5:hover{
+    transform: scale(1.1,1.1);
+    color: aqua;
+}
+table{
+    border-spacing: 5px;
+}
+th{ 
+    padding: 5px;
+}
+
+th{
+    border-radius: 50%;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width: 610px;
+    height: 290px;
+}
+th:hover{
+    transform: scale(1.05,1.05);
+    color: aqua;
+}
+h4{
+    font-family: 'Supermercado One', cursive;
+    color: white;
+    padding-top: 220px;
+    text-align: center;
+}
+
+
+
+footer{
+    size: 5px;
+    padding-top: 10px;
+}
+/* contact */
+.contact-name{
+    padding-left: 45px;
+    color: white;
+    font-family: 'Chewy', cursive;
+    margin-right: 85%;
+}
+
+
+  .contact-section{
+      width: 100%;
+      display: flex;
+      justify-content: left;
+  }
+  .contact-info{
+      margin: 4%;
+      font-size: 18px;
+      color: white;
+      line-height: 55px;
+      max-width: 500px;
+      padding-right: 200px;
+  }
+  .mobile i{
+      
+      color: aqua;
+      font-size: 30px;
+      padding-right: 15px;
+  }
+  
+  .mail i{
+    color: aqua;
+    font-size: 30px;
+    padding-right: 15px;
+  }
+
+  .house i{
+    color: aqua;
+    font-size: 30px;
+    padding-right: 15px;
+  }
+  .form1{
+      color: #D9D9D9;
+  }
+  .form-control{
+      background-color: black;
+  }
+  .sent-btn{
+      color: #686D76;
+      background: aqua;
+      border: none;
+      border-radius: 25px;
+  }
+  .contact-icon{
+      text-align: center;
+      padding-top: 30px;
+      
+  }
+
+  .contact-icon .fab{
+    color: aqua;
+    font-size: 50px;
+    padding: 30px;
+    background-size: 10px;
+  }
+  .contact-icon .fab:hover{
+      color: white;
+  }
+  
+
+footer{
+    color: white;
+    text-align: center;
+}
+  
